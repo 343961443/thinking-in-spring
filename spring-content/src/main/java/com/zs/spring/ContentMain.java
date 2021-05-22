@@ -14,5 +14,6 @@ public class ContentMain {
         BeanFactory beanFactory = new ClassPathXmlApplicationContext("");
         ApplicationContext applicationContext = new ClassPathXmlApplicationContext("");
         beanFactory = new AnnotationConfigApplicationContext();
+
     }
 }
